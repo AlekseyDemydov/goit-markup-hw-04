@@ -213,7 +213,7 @@ padding: 94px 0 94px 0;
 .icon:nth-child(1){
     background-image: url(../images/qw/circul.svg), url(../images/qw/circul2.svg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 126.84px 69.33px, 102.34px 25px;
 }
 .detal{
    margin: 0 0 10px 0; 
