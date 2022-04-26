@@ -151,8 +151,9 @@ margin-right: 50px;
 }
 .box-section{
     height: 600px;
-    background: var(--brand-color);
-    
+      
+    background-image:  url(../images/background-bg.jpg);
+  background-color: rgba(47, 48, 58, 0.4);
 }
 .box-word{
     font-family: 'Roboto';
@@ -200,6 +201,19 @@ padding: 94px 0 94px 0;
 }
 .benefits-section li{
     margin:0 15px;
+}
+.icon{
+    height: 120px;
+    width: 270px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon:nth-child(1){
+    background-image: url(../images/qw/circul.svg), url(../images/qw/circul2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .detal{
    margin: 0 0 10px 0; 
