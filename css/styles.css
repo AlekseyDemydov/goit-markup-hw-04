@@ -202,7 +202,7 @@ padding: 94px 0 94px 0;
 .benefits-section li{
     margin:0 15px;
 }
-.icon{
+.antenna,.clock,.diagram,.astronaut{
     height: 120px;
     width: 270px;
     background: #F5F4FA;
@@ -210,8 +210,23 @@ padding: 94px 0 94px 0;
     align-items: center;
     margin-bottom: 30px;
 }
-.icon:nth-child(1){
+.antenna:nth-child(1){
     background-image: url(../images/main/icon/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.clock:nth-child(1) {
+    background-image: url(../images/main/icon/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.diagram:nth-child(1) {
+    background-image: url(../images/main/icon/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.astronaut:nth-child(1) {
+    background-image: url(../images/main/icon/astronaut.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -271,7 +286,7 @@ color: var(--second-text);
     padding: 94px 0;
     
 }
-.team-section ul{
+.team-section ul:nth-child(2){
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -294,7 +309,7 @@ color: var(--second-text);
 
 
 
-.team-section li{
+.our-team >li{
     max-width: 270px;
     
     background: var(--background-color);
@@ -311,11 +326,24 @@ color: var(--second-text);
     background: var(--background-color);
     box-sizing: border-box;
 }
-.team-section ul div{
+.team-section ul div:nth-child(2){
     text-align: center;
     padding: 30px 0;
 
 }
+.team-section ul div:nth-child(3) {
+    padding-bottom: 30px ;
+}
+.soc-link{
+    display: flex;
+    justify-content: center;    
+}
+.soc-link li{
+    margin-right: 10px;
+}
+
+
+
 .name{
     font-weight: 500;
     font-size: 16px;
