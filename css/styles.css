@@ -152,7 +152,7 @@ margin-right: 50px;
 .box-section{
     height: 600px;
       
-    background-image:  url(../images/background-bg.jpg);
+    background-image:  url(../images/main/background-bg.jpg);
   background-color: rgba(47, 48, 58, 0.4);
 }
 .box-word{
@@ -211,7 +211,7 @@ padding: 94px 0 94px 0;
     margin-bottom: 30px;
 }
 .icon:nth-child(1){
-    background-image: url(../images/qw/antenna.svg);
+    background-image: url(../images/main/icon/antenna.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
